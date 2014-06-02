@@ -3,9 +3,11 @@ module.exports = [
 		{
 			expand: true
 			flatten:true
-			src: ['src/**']
+			src: ['src/*']
 			dest: 'renamed/'
 			rename: (dest, src) ->
+				# insert patterns here??
+				
 				return dest+src;
 		}
 	]
